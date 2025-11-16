@@ -58,6 +58,15 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
+      backgroundImage: {
+        'hero-gradient': 'var(--hero-gradient)',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
